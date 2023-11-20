@@ -9,6 +9,12 @@ max-width: 1440px;
 }
 
 
+.introduktion{
+margin-bottom: 50px;
+
+
+}
+
 .intro-container{
 display: flex;
 flex-direction: row;
@@ -117,5 +123,47 @@ gap: 1rem;
 }
 
 .drinksKortBilleder {
-    width: 360px;
+width: 360px;
+}
+
+
+.drinks-background-container{
+height: 400px;
+background-color: #1C0221;
+border-top: 1px solid #F6AE2D;
+border-bottom: 1px solid #F6AE2D;
+
+}
+
+
+.drinks-background-container img{
+margin-top: 40px;
+height: 300px;
+width: 300px;
+}
+
+
+.drinks-main-container{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+.prikker{
+width: 10px;
+height: 10px;
+background-color:#F6AE2D;
+border-radius: 100%;
+
+}
+
+.prikker-container{
+margin-top: 25px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 10px;
+
+
 }
