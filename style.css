@@ -8,6 +8,12 @@ background-color: #093A41;
 max-width: 1440px;
 }
 
+p{
+font-size: 21px;
+
+
+}
+
 
 .introduktion{
 margin-bottom: 50px;
@@ -164,6 +170,39 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 gap: 10px;
+
+}
+
+footer{
+background-color:#1C0221;
+
+
+
+
+}
+
+
+.footer-container{
+height: 250px;
+display: flex;
+flex: row;
+justify-content: space-around;
+align-items: center;
+}
+
+.footer-container{
+text-align: center;
+}
+
+.footer-container img{
+margin-bottom: 40px;
+
+}
+
+
+.footer-container h2{
+color: #F6AE2D;
+
 
 
 }
