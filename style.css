@@ -43,3 +43,35 @@ width: 400px;
 
 }
 
+
+H1{
+font-size: 60;
+}
+
+p{
+    color: #fff;
+}
+
+
+/* Nu kommer style på Drinks*/
+.drinksSiden{
+    padding: 5rem;
+}
+.overskriftOgTekst{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+
+.drinksKort{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+.drinksKortBilleder {
+    width: 360px;
+}
