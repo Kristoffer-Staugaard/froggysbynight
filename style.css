@@ -5,7 +5,7 @@ margin: 0;
 
 body{
 background-color: #093A41;
-font-family: ;
+max-width: 1440px;
 }
 
 
@@ -14,7 +14,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-width: 75%;
+width: 85%;
 margin: 0 auto;
 gap: 35px;
 
@@ -25,6 +25,7 @@ color: #fff;
 
 }
 
+
 .intro-container h2{
 font-size: 40px;
 width: 75%;
@@ -33,18 +34,55 @@ margin-bottom: 20px;
 }
 
 .intro-texter span{
-color: gold;
+color: #F6AE2D
 
 }
 
 .intro-billede img{
 height: 400px;
-width: 400px;
+width: 550px;
+
+}
+
+.intro-knapper{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+margin-top: 25px;
+gap: 30px;
+
+
+}
+
+button{
+border: none;
+font-weight: bold;
+
+
+}
+
+.btn-border {
+display: flex;
+margin: 7px;
+padding: 10px 20px;
+border: solid #093A41 1px;
+height: 100%;
+text-align: center;
+color: #093A41;
+
+}
+
+.drinks-kort-knap{
+background-color: #B8CBC9;
+
 
 }
 
 
-H1{
+//** KASPER **//
+
+h1{
 font-size: 60;
 }
 
