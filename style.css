@@ -63,6 +63,12 @@ flex-direction: column;
 align-items: center;
 }
 
+.drink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    marin: 1rem;
+}
 
 
 .drinksKort{
