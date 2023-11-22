@@ -156,46 +156,69 @@ background-color: #B8CBC9;
 }
 
 
-//** KASPER **//
-
 h1{
-font-size: 60;
-}
-
-p{
-    color: #fff;
-}
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;  
+  }
+  
+  p{
+    font-size: 21px;
+    color: #FFFFFF;
+  }
 
 
 /* Nu kommer style på Drinks*/
-.drinksSiden{
-    padding: 5rem;
-}
-.overskriftOgTekst{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
+.drinks-card-padding{
+    padding-left: 120px;
+    padding-right: 120px;
+   }
+   
+   .drinks-overskrift-og-teskt{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   }
+   
+     .text-styling-H3{
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 5px;
+    padding-top: 30px;
+     }
+   
+   .text-styling-pris{
+     font-size: 21px;
+     color: #FFFFFF;
+     margin: 0;
+     padding: 5px;
+   }
+   
+     .drinkskort{
+       display: flex;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+       gap: 1rem;
+     }
+     
+     .drinksection{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+     }
+     
+     .overskrift-og-tekst{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       }
+   
+     .drinkskortbilleder{
+       width: 360px;
+     }
 
-.drink{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    marin: 1rem;
-}
-
-
-.drinksKort{
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-gap: 1rem;
-}
-
-.drinksKortBilleder {
-width: 360px;
-}
-
+/* Nu slutter style på Drinks*/
 
 .drinks-background-container{
 height: 400px;
