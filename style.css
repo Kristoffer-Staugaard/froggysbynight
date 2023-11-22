@@ -15,7 +15,7 @@ font-size: 21px;
 }
 
 header{
-height: 700px;
+height: 800px;
 border-bottom: 3px solid #F6AE2D;
 }
 
@@ -77,6 +77,13 @@ font-weight: bold;
   text-align: center;
   padding: 20px;
 }
+
+
+.popup-element {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s, transform 0.5s;
+  }
 
 
 .introduktion{
