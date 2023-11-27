@@ -6,6 +6,7 @@ margin: 0;
 body{
 background-color: #093A41;
 max-width: 1440px;
+overflow-x: hidden;
 }
 
 p{
@@ -16,7 +17,6 @@ font-size: 21px;
 
 header{
 height: 800px;
-border-bottom: 3px solid #F6AE2D;
 }
 
 header img{
@@ -73,7 +73,7 @@ font-weight: bold;
 .header-content {
   position: relative;
   z-index: 1;
-  color: #fff; /* Justér tekstfarven efter dit behov */
+  color: #fff; 
   text-align: center;
   padding: 20px;
 }
@@ -104,7 +104,8 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-width: 85%;
+padding-left: 50px;
+padding-right: 50px;
 margin: 0 auto;
 gap: 35px;
 
@@ -155,6 +156,7 @@ width: 150px;
 
 .btn-border {
 display: flex;
+justify-content: center;
 margin: 7px;
 padding: 10px 20px;
 border: solid #093A41 1px;
@@ -253,7 +255,9 @@ width: 300px;
 .drinks-main-container{
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: space-between;
+margin-left: 50px;
+margin-right: 50px;
 
 }
 
@@ -302,7 +306,8 @@ background-image: url("img/background-froggys.png");
 
 .populaer-drinks-container{
 height: 500px;
-background-image: ;
+margin-left: 50px;
+margin-right: 50px;
 
 
 
@@ -328,7 +333,7 @@ text-align: center;
 .populaer-drinks-container{
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
 }
 
@@ -360,6 +365,9 @@ margin-bottom: 50px;
 
 /* EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS */
 
+.carousel-section {
+  margin: 50px;
+}
 
 .carousel-container {
   width: 1440px;
