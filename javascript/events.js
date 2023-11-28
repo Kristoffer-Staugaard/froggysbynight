@@ -17,7 +17,7 @@ fetch('https://froggy-e3fac-default-rtdb.europe-west1.firebasedatabase.app/event
             let infoElement = document.createElement("div");
             infoElement.classList.add("events-infobox");
 
-            // Create a new div for title, date, and description
+            // title, date, og description
             let textContentDiv = document.createElement("div");
             textContentDiv.classList.add("text-content");
 
@@ -41,7 +41,7 @@ fetch('https://froggy-e3fac-default-rtdb.europe-west1.firebasedatabase.app/event
             imgElement.classList.add("events-img");
             imgElement.src = dataarray.img;
 
-            // Create button and its div
+            // button
             let buttonElement = document.createElement("button");
 
             let buttonDiv = document.createElement("div");
@@ -50,7 +50,7 @@ fetch('https://froggy-e3fac-default-rtdb.europe-west1.firebasedatabase.app/event
 
             buttonElement.appendChild(buttonDiv);
 
-            infoElement.appendChild(textContentDiv); // Append the new div containing title, date, and description
+            infoElement.appendChild(textContentDiv);
             infoElement.appendChild(buttonElement);
 
             eventsElement.appendChild(imgElement);
