@@ -20,7 +20,6 @@ background-color: #1C0221;
 /* Main navigation, som bruges til de øvrige sider udover forsiden */
 
 
-
 body{
 background-color: #093A41;
 max-width: 1440px;
@@ -73,36 +72,36 @@ font-weight: bold;
 
 
 .video-header {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
+position: relative;
+height: 100vh;
+overflow: hidden;
 }
 
 #video-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-bottom: 1px solid #F6AE2D;
-  
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-bottom: 1px solid #F6AE2D;
+
 }
 
 .header-content {
-  position: relative;
-  z-index: 1;
-  color: #fff; 
-  text-align: center;
-  padding: 20px;
+position: relative;
+z-index: 1;
+color: #fff; 
+text-align: center;
+padding: 20px;
 }
 
 
 .popup-element {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: opacity 0.5s, transform 0.5s;
-  }
+opacity: 0;
+transform: translateY(50px);
+transition: opacity 0.5s, transform 0.5s;
+}
 
 
 .introduktion{
@@ -192,66 +191,66 @@ background-color: #B8CBC9;
 
 
 h1{
-    font-size: 60px;
-    color: #FFFFFF;
-    text-align: center;  
-  }
-  
-  p{
-    font-size: 21px;
-    color: #FFFFFF;
-  }
+font-size: 60px;
+color: #FFFFFF;
+text-align: center;  
+}
+
+p{
+font-size: 21px;
+color: #FFFFFF;
+}
 
 
 /* Nu kommer style på Drinks*/
 .drinks-card-padding{
-    padding-left: 120px;
-    padding-right: 120px;
-   }
-   
-   .drinks-overskrift-og-teskt{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   }
-   
-     .text-styling-H3{
-    font-size: 30px;
-    color: #FFFFFF;
-    margin: 0;
-    padding: 5px;
-    padding-top: 30px;
-     }
-   
-   .text-styling-pris{
-     font-size: 21px;
-     color: #FFFFFF;
-     margin: 0;
-     padding: 5px;
-   }
-   
-     .drinkskort{
-       display: flex;
-       justify-content: space-evenly;
-       flex-wrap: wrap;
-       gap: 1rem;
-     }
-     
-     .drinksection{
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-     }
-     
-     .overskrift-og-tekst{
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       }
-   
-     .drinkskortbilleder{
-       width: 360px;
-     }
+padding-left: 120px;
+padding-right: 120px;
+}
+
+.drinks-overskrift-og-teskt{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.text-styling-H3{
+font-size: 30px;
+color: #FFFFFF;
+margin: 0;
+padding: 5px;
+padding-top: 30px;
+}
+
+.text-styling-pris{
+font-size: 21px;
+color: #FFFFFF;
+margin: 0;
+padding: 5px;
+}
+
+.drinkskort{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+.drinksection{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.overskrift-og-tekst{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.drinkskortbilleder{
+width: 360px;
+}
 
 /* Nu slutter style på Drinks*/
 
