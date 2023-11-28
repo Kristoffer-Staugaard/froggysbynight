@@ -3,6 +3,24 @@ padding: 0;
 margin: 0;
 }
 
+/* Main navigation, som bruges til de øvrige sider udover forsiden */
+
+.nav-main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: sticky;
+top: 0;
+z-index: 1000;
+background-color: #1C0221;
+
+}
+
+/* Main navigation, som bruges til de øvrige sider udover forsiden */
+
+
+
 body{
 background-color: #093A41;
 max-width: 1440px;
@@ -458,6 +476,45 @@ width: 200px;
 
 .footer-container h2{
 color: #F6AE2D;
+
+
+
+}
+
+
+
+
+
+/* BOOK */
+
+.overskrift-book{
+align-items: center;
+margin: 0 auto;
+width: 50%;
+margin-top: 100px;
+
+}
+
+.overskrift-book span{
+color: #F6AE2D;
+
+
+}
+
+.paragraf-book{
+align-items: center;
+margin: 0 auto;
+width: 70%;
+margin-top: 25px;
+
+
+}
+
+.knapper-book{
+display: flex;
+justify-content: space-around;
+margin-top: 50px;
+margin-bottom: 100px;
 
 
 
