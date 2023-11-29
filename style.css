@@ -401,11 +401,12 @@ margin-bottom: 50px;
 }
 
 .events {
-  margin: 50px;
+  margin: 0px 50px 50px 50px;
 }
 
 
 .events-cards {
+  display: flex;
   background-color: #1C0221;
   border: 1px solid #F6AE2D;
   min-width: 100%;
