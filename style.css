@@ -50,7 +50,11 @@ align-items: center;
 position: sticky;
 top: 0;
 z-index: 1000;
+transition: background-color 0.3s ease;
+}
 
+nav.scrolled {
+  background-color: #1C0221;
 }
 
 ul{
