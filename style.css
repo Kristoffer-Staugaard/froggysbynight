@@ -708,5 +708,29 @@ footer img {
     padding-bottom: 25px;
   }
 
+  .events {
+    margin: 25px;
+    max-width: 300px;
+  }
+
+  .events-img {
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+
+  .events-cards {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .events-infobox {
+    margin-left: 0;
+  }
+
+  .text-content {
+    margin-bottom: 20px;
+  }
 
 }
