@@ -32,7 +32,6 @@ p{
 font-family: 'Karla';
 font-size: 21px;
 
-
 }
 
 header{
@@ -41,6 +40,7 @@ height: 600px;
 
 header img{
 width: 150px;
+
 
 }
 
@@ -53,10 +53,12 @@ position: sticky;
 top: 0;
 z-index: 1000;
 transition: background-color 0.3s ease;
+
 }
 
 nav.scrolled {
-  background-color: #1C0221;
+background-color: #1C0221;
+  
 }
 
 ul{
@@ -542,6 +544,169 @@ justify-content: space-around;
 margin-top: 50px;
 margin-bottom: 100px;
 
+}
+
+@media screen and (max-width: 768px) {
+body{
+max-width: 768px;
+}
+
+nav img {
+  height: 100px;
+}
+
+header {
+height: 550px;
+
+}
+
+#video-background {
+height: 725px;
+
+}
+
+.intro-container {
+display: flex;
+flex-direction: column;
+
+}
+
+.intro-container h1 {
+text-align: center;
+
+}
+
+.intro-knapper {
+justify-content: center;
+
+}
+
+.drinks-background-container img {
+height: 200px;
+width: 200px;
+
+}
+
+.drinks-background-container {
+height: 300px;
+
+}
+
+.titel-drinks {
+width: 80%;
+margin-top: 50px;
+
+}
+
+.populaer-drinks-container img {
+height: 250px;
+width: 200px;
+
+}
+
+.populaer-drinks-container {
+height: 400px;
+
+}
+
+.events-cards {
+  height: 350px;
+}
+
+.events-title {
+  color: #fff;
+}
+
+.carousel-section {
+  margin: 0;
+  overflow: hidden;
+}
+
+.events-img {
+  width: 200px;
+}
+
+.btn-wrap {
+  margin-bottom: 50px;
+}
+
+footer img {
+  height: 100px;
+}
+}
+
+@media screen and (max-width: 425px) {
+
+  p {
+    font-size: 18px;
+  }
+
+  .intro-container h1 {
+    font-size: 40px;
+  }
+
+  .intro-knapper {
+    gap: 5px;
+    justify-content: space-between;
+  }
+
+  nav li {
+    font-size: 19px;
+  }
+
+  .intro-billede img{
+    max-height: 300px;
+    width: auto;
+  }
+
+  .drinks-background-container {
+    height: auto;
+  }
+
+  .drinks-main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .drinks-main-container div img {
+    width: 300px;
+    height: auto;
+  }
+
+  .prikker-container {
+    margin-bottom: 25px;
+  }
+
+  .titel-drinks{
+    font-size: 40px;
+    width: auto;
+  }
+
+  .paragraf-drinks {
+    width: auto;
+  }
+
+  .populaer-drinks-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .populaer-drink-div {
+    margin-bottom: 25px;
+  }
+
+  .populaer-drink-div img {
+    width: 300px;
+  }
+
+  .footer-container {
+    height: auto;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 
 
 }
