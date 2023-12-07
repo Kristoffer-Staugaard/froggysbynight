@@ -671,14 +671,40 @@ footer img {
 }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 740px) {
+
+  .overskrift-book {
+    font-size: 40px;
+  }
+
+  .intro-container h1 {
+    font-size: 40px;
+  }
 
   p {
     font-size: 18px;
   }
 
-  .intro-container h1 {
+  .titel-drinks{
     font-size: 40px;
+    width: auto;
+  }
+
+  .populaer-drinks-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+
+
+@media screen and (max-width: 425px) {
+
+ 
+
+  .intro-billede {
+    width: auto;
   }
 
   .intro-knapper {
@@ -712,11 +738,6 @@ footer img {
 
   .prikker-container {
     margin-bottom: 25px;
-  }
-
-  .titel-drinks{
-    font-size: 40px;
-    width: auto;
   }
 
   .paragraf-drinks {
