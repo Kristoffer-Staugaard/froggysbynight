@@ -153,15 +153,32 @@
 <style>
   #events-wrap {
       display: flex;
-      width: 1000px;
+      width: -webkit-fill-available;
   }
+
+  @media screen and (max-width: 1065px) { 
+
+    #events-wrap {
+        width: 750px;
+        height: 400px;
+    }
+
+    .events-img {
+        width: 250px;
+    }
+    
+  }
+
+
 
   @media screen and (max-width: 768px) {
 
     #events-wrap {
         width: 600px;
+        height: 600px;
         margin-bottom: 0;
     }
+
   }
 
 </style>

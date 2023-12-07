@@ -162,9 +162,12 @@ color: #F6AE2D
 
 }
 
+.intro-billede {
+  width: 300%;
+}
+
 .intro-billede img{
-height: 400px;
-width: 550px;
+max-width: 100%;
 
 }
 
@@ -441,6 +444,7 @@ margin-bottom: 50px;
 }
 
 .events-title {
+  color: #fff;
   margin-bottom: 10px;
   font-weight: 700;
 }
@@ -546,6 +550,38 @@ margin-bottom: 100px;
 
 }
 
+@media screen and (max-width: 1065px) { 
+
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    
+    }
+
+    .intro-billede {
+      max-width: 500px;
+    }
+    
+    .intro-container h1 {
+    text-align: center;
+    
+    }
+    
+    .intro-knapper {
+    justify-content: center;
+    
+    }
+
+    .populaer-drinks-container img {
+      height: 300px;
+      width: 250px;
+      
+      }
+
+}
+
+
+
 @media screen and (max-width: 768px) {
 body{
 max-width: 768px;
@@ -610,7 +646,7 @@ height: 400px;
 }
 
 .events-cards {
-  height: 350px;
+  height: 500px;
 }
 
 .events-title {
