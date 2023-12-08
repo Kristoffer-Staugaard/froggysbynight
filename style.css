@@ -695,7 +695,33 @@ footer img {
     flex-direction: column;
     height: auto;
   }
+
+  .drinks-main-container div {
+    display: flex;
+    justify-content: center;
+  }
+
+.drinks-main-container {
+  flex-direction: column;
 }
+
+.drinks-background-container {
+  height: auto;
+}
+
+.drinks-background-container img {
+  width: 400px;
+  height: 400px;
+}
+
+.populaer-drink-div img {
+  width: 400px;
+  height: auto;
+}
+
+}
+
+
 
 
 
