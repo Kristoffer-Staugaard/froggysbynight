@@ -675,6 +675,11 @@ footer {
     width: auto;
   }
 
+  .intro-container p{
+    width: 99%;
+
+  }
+
   .drinks-background-container {
     height: auto;
   }
