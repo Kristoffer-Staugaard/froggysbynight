@@ -120,13 +120,10 @@ transition: opacity 0.5s, transform 0.5s;
 
 
 .introduktion{
-margin-bottom: 50px;
-margin-top: 50px;
-background-image: url("img/frø.png");
+margin-bottom: 100px;
+margin-top: 100px;
 background-size: 150px;
 background-repeat: no-repeat;
-background-position-x: 1200px;
-background-position-y: 310px;
 
 
 
@@ -223,10 +220,7 @@ color: #FFFFFF;
 
 
 /* Nu kommer style på Drinks*/
-.drinks-card-padding{
-padding-left: 120px;
-padding-right: 120px;
-}
+
 
 .drinks-overskrift-og-teskt{
 display: flex;
@@ -240,6 +234,8 @@ margin-top: 50px;
 }
 
 .text-styling-H3{
+font-family: 'Cinzel';
+font-weight: bold;
 font-size: 30px;
 color: #FFFFFF;
 margin: 0;
@@ -318,7 +314,7 @@ cursor: pointer;
 text-align: center;
 font-size: 60px;
 color: #fff; 
-width: 50%;
+width: 60%;
 margin: 0 auto;
 margin-bottom: 25px;
 
@@ -355,6 +351,11 @@ gap: 10px;
 
 }
 
+.populaer-drinks {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 
 .populaer-drink-div{
 text-align: center;
@@ -388,6 +389,7 @@ width: 300px;
 
 
 .knap-drinks-kort-div{
+margin-top: 30px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -398,7 +400,7 @@ margin-bottom: 50px;
 /* EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS  EVENTS */
 
 .carousel-section {
-  margin: 50px;
+  margin: 100px 50px 100px 50px;
 }
 
 .carousel-container {
@@ -415,7 +417,7 @@ margin-bottom: 50px;
 }
 
 .events {
-  margin: 0px 50px 50px 50px;
+  margin: 0px 50px 0px 50px;
 }
 
 
@@ -433,7 +435,8 @@ margin-bottom: 50px;
 }
 
 .events-img {
-  width: 430px;
+  width: 400px;
+  height: 400px;
 }
 
 .events-infobox {
@@ -536,10 +539,7 @@ color: #F6AE2D;
 .paragraf-book{
 align-items: center;
 margin: 0 auto;
-width: 70%;
 margin-top: 25px;
-
-
 }
 
 .knapper-book{
@@ -547,6 +547,7 @@ display: flex;
 justify-content: space-around;
 margin-top: 50px;
 margin-bottom: 100px;
+gap: 30px;
 
 }
 
@@ -565,6 +566,14 @@ margin-bottom: 100px;
     .intro-container h1 {
     text-align: center;
     
+    }
+
+    .text-styling-H3 {
+      font-size: 20px;
+    }
+
+    .events {
+      margin: 0;
     }
     
     .intro-knapper {
@@ -645,8 +654,13 @@ height: 400px;
 
 }
 
-.events-cards {
-  height: 500px;
+.events {
+  margin-left: 50px;
+}
+
+
+.events-description {
+  font-size: 18px;
 }
 
 .events-title {
@@ -659,7 +673,9 @@ height: 400px;
 }
 
 .events-img {
-  width: 200px;
+  width: 300px;
+  height: 300px;
+
 }
 
 .btn-wrap {
