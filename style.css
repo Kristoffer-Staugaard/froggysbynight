@@ -492,7 +492,6 @@ background-color:#1C0221;
 .footer-container{
 height: 250px;
 display: flex;
-flex: row;
 justify-content: space-around;
 align-items: center;
 }
