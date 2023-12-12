@@ -500,6 +500,11 @@ footer {
 
 @media screen and (max-width: 1065px) {
 
+  section {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
   .intro-container {
     display: flex;
     flex-direction: column;
@@ -538,21 +543,34 @@ footer {
     max-width: 768px;
   }
 
+  section {
+    margin-left: 0;
+  }
+
   nav img {
     height: 100px;
   }
 
   header {
-    height: 550px;
+    height: 95vh;
   }
 
   #video-background {
-    height: 725px;
+    height: 95vh;
+  }
+
+  .introduktion {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .intro-container {
     display: flex;
     flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .intro-container h1 {
@@ -667,7 +685,29 @@ footer {
 
 }
 
+@media screen and (max-width: 695px) {
+
+  .events-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .events-img {
+    margin-bottom: 20px;
+  }
+
+  .text-content {
+    margin-bottom: 20px;
+  }
+
+}
+
+
 @media screen and (max-width: 425px) {
+
+  section {
+    margin-right: 0;
+  }
 
   .intro-billede {
     width: auto;
@@ -738,7 +778,6 @@ footer {
 
   .events {
     margin: 25px;
-    max-width: 300px;
   }
 
   .events-img {
