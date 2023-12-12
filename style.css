@@ -239,6 +239,7 @@ p {
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 1rem;
+  margin-bottom: 100px;
 }
 
 .drinksection {
@@ -296,6 +297,7 @@ p {
   width: 60%;
   margin: 0 auto;
   margin-bottom: 25px;
+  margin-top: 50px;
 }
 
 .paragraf-drinks {
